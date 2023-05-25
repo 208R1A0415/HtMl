@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+      
       .todo-list{
         background-color: black;
         color: whitesmoke;
@@ -20,12 +21,21 @@
     <center>
         <div class="todo-list">
             <h1>Todo App</h1>
-            <input style="font-size: large"; type="text"><br><br>
-            <input style="font-size: large"; type="submit" value=" Add Todo"
-            onclick="addItemsInTodo()"
+            <input style="font-size: large"; type="text"><br> <br>
+            <input style="font-size: large;"type= "submit" value=" Add Todo"
+            onclick="addItemsInTodo()">
 
         </div>
-
+        <ul id ="todo-items">
+        </ul>
     </center>
+    <script>
+      function addItemsInTodo(){
+        const mainlist = document.getElementsById('todo-items');
+        const newTodo = document.createElement('li');
+        newTodo.innerText = document.getElementsById('todo-value').value;
+        mainlist.appendchild(newTodo)
+      }
+    </script>
 </body>
 </html>

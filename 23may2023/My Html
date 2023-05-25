@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Instagram
+        </title>
+          
+        <!-- add icon link -->
+        <link rel = "icon" href = 
+"https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/1200px-Instagram-Icon.png" 
+        type = "image/x-icon">Document</title>
+</head>
+<body>
+   <P>
+    Amazing
+   </P> 
+   <h1> hello 1</h1>
+   <h2> hello 2</h2>
+   <h3> hello 3</h3>
+   <h4> hello 4</h4>
+   <h5> hello 5</h5>
+   <h6> hello 6</h6>
+   <center>
+   <div>
+   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/1200px-Instagram-Icon.png" alt="Instagram Icon"
+    height="100px" width="100px">
+   <caption>This is the caption for above image</caption>
+</div>
+</center>
+<div>click here to follow us on w3 schools
+    <a href=https://www.w3schools.com/html/default.asp >click here to follow us on w3 schools</a>
+</div>
+<!--this is a table i created for testing.Thers no sgnifcance-->
+
+<table border="1px solid black;" >
+    <thead>
+        <tr>
+            <td>Name</td>
+            <td>Email</td>
+            <td>password</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td> Jhansi</td>
+            <td> Jhansi@gmail.com</td>
+            <td> Jhanu_223</td>
+        </tr>
+    </tbody>
+</table>
+<li>
+<input type ="submit" value = clickhere>
+</li>
+<li><input type="color" name="" id=""></li>
+<li><input type="checkbox" name="" id=""></li>
+<input type="date" name="" id="">
+<div>Gender</div>
+    <input type ="radio" name="" id="" >male<br>
+    <input type ="radio" name="" id="" >female
+</body>
+</html>
