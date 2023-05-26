@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Queries</title>
     <style>
-        body{
-            background-color: lightblue;
-        }
+        
         .header{
             display: flex;
             flex-direction: row;
@@ -17,13 +15,35 @@
             padding: 15px;
 
         }
-        @media only screen and (max-widtj:600px);
+        @media only screen and (max-width:600px){
+        .header{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: blue;
+            padding: 25px;
+        }
+        #one{
+            max-height: 80px;
+            height: 100%;
+            padding: 10px;
+        }
+        #two{
+            max-height: 30px;
+            height: 100%;
+            padding: 10px;
+        }
+
+        }
+    }
+
+        
     </style>
 </head>
 <body>
     <div class="header">
-        <p>Hello</p>
-        <img src=">"
+        <img id ="one" src="https://newcroplive.com/wp-content/uploads/2020/11/cars24-logo.jpg" alt="car24-logo" height="80px">
+        <img id="two" src="https://i0.wp.com/www.aerchain.io/wp-content/uploads/2023/03/Aerchain-logo.png?resize=300%2C43&ssl=1" alt="Aerchain logo" height="30px">
     </div>
     
 </body>
